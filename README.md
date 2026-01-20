@@ -37,8 +37,7 @@ This repository contains the comprehensive coursework and engineering analysis f
 
 ## 👤 Author
 
-**Ummugulsun Turkmen**  
-Student ID: 230611056  
+**Ummugulsun Turkmen**   
 *Computer Engineering Student*
 
 ---
