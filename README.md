@@ -1,37 +1,39 @@
 # Computer Architecture (CoE 301)
 
-This repository contains the comprehensive coursework and engineering projects for the **CoE 301: Computer Architecture** course. The contents demonstrate a deep understanding of digital system design, instruction set architectures, and processor performance optimization.
+This repository contains the comprehensive coursework and engineering analysis for the **CoE 301: Computer Architecture** course. The projects demonstrate a deep technical understanding of memory hierarchy performance, cache simulation, and modern I/O subsystem architectures.
 
 ## 📖 Course Overview
 
-**Computer Architecture** bridges the gap between high-level software and low-level hardware. This collection represents rigorous work in designing, analyzing, and implementing complex computing systems.
-
-**Core Competencies Demonstrated:**
-*   **Processor Architecture**: Design of datapath and control units for RISC-based architectures.
-*   **Arithmetic Logic Unit (ALU) Design**: Implementation of efficient arithmetic and logical operations.
-*   **Performance Analysis**: Quantitative evaluation of system performance using CPU time, CPI, and instruction count metrics.
-*   **Digital Logic**: Advanced digital circuits and system organization.
+**Computer Architecture** focuses on the quantitative analysis and design of computing systems. This collection emphasizes:
+*   **Memory Systems**: Cache organization, placement policies, and performance tuning.
+*   **I/O Subsystems**: Evolution from DMA to modern PCIe and Direct Cache Access (DCA).
+*   **System Performance**: Quantitative evaluation using hit rates, latency analysis, and throughput metrics.
 
 ## 📂 Repository Contents
 
-### 🚀 [Final Project Report](CoE301-Final-Project.pdf)
-*   **Format**: Comprehensive 40-page Engineering Report
-*   **Description**: This major project document details the complete design and verification of a computing architecture.
-    *   **Architectural Design**: In-depth explanation of the proposed processor architecture and its components.
-    *   **ALU Implementation**: Detailed breakdown of the Arithmetic Logic Unit design choices.
-    *   **Simulation & Verification**: Validation of the design through extensive simulation waveforms and functional testing.
-    *   **Performance Results**: Critical analysis of the processor's speed and efficiency.
+### 🚀 [Final Project: Cache Memory Simulation & Analysis](CoE301-Final-Project.pdf)
+*   **Format**: Comprehensive Engineering Report (40+ Pages)
+*   **Scope**: Design and simulation of a flexible cache memory system to identify optimal configurations for specific instruction traces.
+*   **Key Technical Contributions**:
+    *   **Simulation Parameters**: Extensive sweep of 81 unique configurations testing **Cache Size** (64B - 256B), **Block Size** (2B - 8B), and **Associativity** (Direct Map to 4-way Set Associative).
+    *   **Replacement Policies**: Comparative analysis of **LRU** (Least Recently Used), **FIFO** (First-In, First-Out), and **Random** replacement algorithms.
+    *   **Performance Metrics**: Detailed breakdown of Hit Rates vs. Miss Rates for different trace files.
+    *   **Outcome**: Empirical data demonstrating the impact of spatial and temporal locality on cache performance.
 
-### 📝 [Assignment 2: Architecture Analysis](CoE301-Assignment-2.pdf)
-*   **Format**: Technical Analysis & Problem Set (12 pages)
-*   **Description**: An analytical study focused on architectural efficiency and instruction set mechanics.
-    *   **Topics**: Datapath control, instruction execution lifecycle, and performance calculations.
+### 📝 [Assignment 2: High-Performance I/O Architecture](CoE301-Assignment-2.pdf)
+*   **Format**: Technical Research & Analysis Report
+*   **Scope**: In-depth analysis of the evolution of Input/Output mechanics in modern high-speed computing.
+*   **Key Topics Analyzed**:
+    *   **DMA vs. Interrupt-Driven I/O**: Quantitative comparison of CPU overhead and context switching costs.
+    *   **PCI Express (PCIe)**: Evaluation of switch-based point-to-point topologies and scalable bandwidth (GT/s).
+    *   **Direct Cache Access (DCA)**: Investigation into modern Intel DDIO technology, Cache Injection, and eliminating memory bottlenecks in 100Gbps networks.
+    *   **Interconnects**: Role of the Ring Interconnect System in low-latency core-to-IO communication.
 
 ## 🛠️ Skills & Tools
 
-*   **Architecture**: RISC / CISC Concepts, Pipelining, Memory Hierarchy.
-*   **Methodology**: Quantitative Computer Architecture Analysis.
-*   **Documentation**: Technical Writing and Engineering Documentation.
+*   **Simulation & Testing**: Cache performance simulation, parameter sweeping.
+*   **Architecture Analysis**: Quantitative reasoning, bottleneck identification (Memory Wall, I/O Overhead).
+*   **Technical Writing**: Producing professional engineering documentation with IEEE-style rigor.
 
 ## 👤 Author
 
@@ -40,4 +42,4 @@ Student ID: 230611056
 *Computer Engineering Student*
 
 ---
-*Note: This repository serves as an academic portfolio showcasing skills in computer architecture and digital system design.*
+*Note: This repository serves as an academic portfolio showcasing skills in computer architecture, memory system design, and hardware performance analysis.*
