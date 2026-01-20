@@ -1,32 +1,37 @@
 # Computer Architecture (CoE 301)
 
-This repository contains the coursework, assignments, and the final project for the **CoE 301: Computer Architecture** course. The projects focus on the fundamental principles of computing systems, ranging from Instruction Set Architecture (ISA) design to hardware implementation and performance optimization.
+This repository contains the comprehensive coursework and engineering projects for the **CoE 301: Computer Architecture** course. The contents demonstrate a deep understanding of digital system design, instruction set architectures, and processor performance optimization.
 
-## � Course Overview
+## 📖 Course Overview
 
-**Computer Architecture** explores the interface between hardware and software. This course covers the design, analysis, and implementation of computer systems, emphasizing:
-*   **Instruction Set Architecture (ISA)**: MIPS/RISC-V assembly language and datapath design.
-*   **Processor Design**: Single-cycle, multi-cycle, and pipelined processor implementations.
-*   **Memory Hierarchy**: Cache organization, virtual memory, and performance trade-offs.
-*   **Digital Logic Design**: Verilog/VHDL implementation of arithmetic logic units (ALUs) and control units.
+**Computer Architecture** bridges the gap between high-level software and low-level hardware. This collection represents rigorous work in designing, analyzing, and implementing complex computing systems.
+
+**Core Competencies Demonstrated:**
+*   **Processor Architecture**: Design of datapath and control units for RISC-based architectures.
+*   **Arithmetic Logic Unit (ALU) Design**: Implementation of efficient arithmetic and logical operations.
+*   **Performance Analysis**: Quantitative evaluation of system performance using CPU time, CPI, and instruction count metrics.
+*   **Digital Logic**: Advanced digital circuits and system organization.
 
 ## 📂 Repository Contents
 
-### [Final Project Report](CoE301-Final-Project.pdf)
-A comprehensive documentation of the final course project. This report details the design methodology, architectural decisions, and performance analysis of the implemented system.
-*   **Key Focus**: Architectural design, simulation results, and performance metrics.
-*   **Outcome**: Demonstrated valid operation of the designed architecture through rigorous testing and simulation.
+### 🚀 [Final Project Report](CoE301-Final-Project.pdf)
+*   **Format**: Comprehensive 40-page Engineering Report
+*   **Description**: This major project document details the complete design and verification of a computing architecture.
+    *   **Architectural Design**: In-depth explanation of the proposed processor architecture and its components.
+    *   **ALU Implementation**: Detailed breakdown of the Arithmetic Logic Unit design choices.
+    *   **Simulation & Verification**: Validation of the design through extensive simulation waveforms and functional testing.
+    *   **Performance Results**: Critical analysis of the processor's speed and efficiency.
 
-### [Assignment 2: Architecture Analysis](CoE301-Assignment-2.pdf)
-Detailed solutions and technical analysis for the second course assignment. 
-*   **Topics Covered**: ISA datapath analysis, performance calculation, or assembly programming concepts (specific topics as covered in the assignment).
+### 📝 [Assignment 2: Architecture Analysis](CoE301-Assignment-2.pdf)
+*   **Format**: Technical Analysis & Problem Set (12 pages)
+*   **Description**: An analytical study focused on architectural efficiency and instruction set mechanics.
+    *   **Topics**: Datapath control, instruction execution lifecycle, and performance calculations.
 
-## 🛠️ Tools & Technologies
+## 🛠️ Skills & Tools
 
-The projects in this repository may involve the use of standard industry tools for design and simulation:
-*   **Hardware Description Languages**: Verilog / VHDL
-*   **Simulation Tools**: ModelSim, Vivado, or QtSpim/MARS (for Assembly)
-*   **Documentation**: LaTeX / Word for technical reporting
+*   **Architecture**: RISC / CISC Concepts, Pipelining, Memory Hierarchy.
+*   **Methodology**: Quantitative Computer Architecture Analysis.
+*   **Documentation**: Technical Writing and Engineering Documentation.
 
 ## 👤 Author
 
@@ -35,4 +40,4 @@ Student ID: 230611056
 *Computer Engineering Student*
 
 ---
-*Disclaimer: This repository is intended for educational and portfolio purposes. Please respect academic integrity guidelines when referencing this work.*
+*Note: This repository serves as an academic portfolio showcasing skills in computer architecture and digital system design.*
